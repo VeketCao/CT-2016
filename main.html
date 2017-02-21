@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>美的金融</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="lib/requirejs/require.min.js"></script>
+    <script src="js/require-config.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="g-toolbar">
+        <div class="g-wrap">
+            <div class="gt-menu">
+                <ul>
+                    <li>
+                        <a onclick="window.open('http://finance.midea.com.cn','_blank')">美的财司</a>
+                    </li>
+                    <li>
+                        <div class="split-line"></div>
+                    </li>
+                    <li>
+                        <a rel="sidebar" id="add-book">收藏本站</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="g-navigotor">
+        <div class="g-wrap clearfix">
+            <img class="gn-logo" src="img/default/logo.png"/>
+            <div class="gn-nav">
+                <ul class="clearfix">
+                    <li id="li-home" class="active">
+                        <a href="#!/r/home">
+                            <div class="split-line"><span>首页</span><br><span class="white-font">HOME</span></div>
+                        </a>
+                    </li>
+                    <li id="li-supply">
+                        <a href="#!/r/supply">
+                            <div class="split-line">供应链金融<br><span class="white-font">SUPPLY CHAIN</span></div>
+                        </a>
+                    </li>
+                    <li id="li-sales">
+                        <a href="#!/r/sales">
+                            <div class="split-line">销售链金融<br><span class="white-font">SALES CHAIN</span></div>
+                        </a>
+                    </li>
+                    <li id="li-online">
+                        <a href="#!/r/online">
+                            <div class="split-line">资讯在线<br><span class="white-font">INFORMATION ONLINE</span></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="gn-login">
+                <div class="lg-div">
+                    <a id="login-a"><img class="lg-btn" src="img/default/lgbtn.png"></a>
+                    <!--<a id="register-a" class="rg-btn"><img src="img/default/rgbtn.png"></a>-->
+                </div>
+            </div>
+        </div>
+        <div id="sub-menu">
+            <div id="li-supply-sub" class="sub-menu">
+                <ul class="u1">
+                    <li><a href="#!/r/supply/detail/detail1">应收账款质押融资</a></li>
+                    <li><a href="#!/r/supply/detail/detail2">应收账款质押池融资</a></li>
+                    <li><a href="#!/r/supply/detail/detail3">保理融资</a></li>
+                    <li><a href="#!/r/supply/detail/detail4">保理池融资</a></li>
+                    <li><a href="#!/r/supply/detail/detail5">订单融资</a></li>
+                    <li><a href="#!/r/supply/detail/detail6">外租仓融资</a></li>
+                </ul>
+            </div>
+            <div id="li-sales-sub" class="sub-menu">
+                <ul class="u2">
+                    <li><a href="#!/r/sales/detail/saleCompanyCredit">销售公司信用贷款</a></li>
+                    <li><a href="#!/r/sales/detail/DealerReceiptPledge">经销商存货质押贷款</a></li>
+                    <li><a href="#!/r/sales/detail/DealerSquareLoans">经销商四方保兑仓贷款</a></li>
+                    <li><a href="#!/r/sales/detail/DealerTripartiteLoans">经销商三方保兑仓贷款</a></li>
+                    <li><a href="#!/r/sales/detail/DealerBillLoans">经销商票据质押贷款</a></li>
+                    <li><a href="#!/r/sales/detail/DealerFundLoans">经销商合作基金贷款</a></li>
+                    <li><a href="#!/r/sales/detail/DealerRiskLoans">经销商风险共担贷款</a></li>
+                    <li><a href="#!/r/sales/detail/DealerInventoryLoans">经销商存货浮动抵押</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="g-body">
+        <div id="main"></div>
+    </div>
+<div class="g-footer">
+    <div class="g-wrap">
+        <div class="top">
+            <div>
+                <div class="app-download clearfix">
+                    <p class="font-size-16 c5">美的金融app:</p>
+                    <div class="c1"><img src="img/default/android.png">Android</div>
+                    <div class="c1"><img src="img/default/ios.png">IOS</div>
+                </div>
+            </div>
+            <div class="left-dashed" style="display: none">
+                <div class="c3"><span class="font-size-16">联系我们 </span></div>
+                <div class="c4">
+                    <!--                        <div class="c3"><span>电话：0757-26338888&nbsp;&nbsp;&nbsp;传真：0757-26654011</span></div>-->
+                    <div class="c3"><span>地址：广东省佛山市顺德区北滘镇美的大道6号美的新总部大楼</span></div>
+                    <div class="c3"><span>邮政编码：528311</span></div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="bottom">
+             <div class="font-size-12"><span>Copyright © 2015-2025 Midea Group. all right reserved 美的集团版权所有</span></div>
+        </div>-->
+    </div>
+</div>
+<div id="popup-win"></div>
+</body>
+</html>

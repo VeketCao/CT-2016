@@ -1,0 +1,25 @@
+#supply-receive{background-color: #1c5396;padding: 36px 0 27px 0;}
+#supply-receive .pull-left{float:left}
+#supply-receive .main-font{font-family: "Microsoft Yahei", Arial helvetica, sans-serif;font-weight: 100;}
+#supply-receive .clear{clear: both;}
+
+#supply-receive .detail-center{background-color: #f3f3f3;}
+
+/*左边样式*/
+#supply-receive .detail-left{width:815px;}
+#supply-receive .detail-head1{color: #a4a4a4;margin-top: 30px;margin-left: 20px;font-size: 15px;}
+#supply-receive .detail-head2{margin:30px 30px 20px 30px;}
+#supply-receive .detail-title{font-size: 20px;color: #000000;}
+#supply-receive .detail-title span{line-height: 40px;}
+#supply-receive .detail-apply-btn{width:282px;height:40px;margin-left:472px;background: url("../../../img/default/detail-quick-btn.png") no-repeat;text-align: center;cursor: pointer;}
+#supply-receive .detail-apply-btn a{line-height: 40px;color: #000000;font-size: 16px;}
+#supply-receive .detail-intro{background-color: #ffffff;margin:0 30px;padding:20px;margin-bottom: 20px;border:1px solid #e2e2e2;}
+#supply-receive .detail-intro-title{font-size: 18px;color: #000000;}
+#supply-receive .detail-intro-content{color: #a4a4a4;font-size: 14px;padding-top:5px;line-height: 25px;}
+
+/*右边样式*/
+#supply-receive .detail-right{width:285px;background-color: #ffffff;height:1450px;}
+#supply-receive .detail-quick-title{font-size: 20px;color: #000000;padding-left: 70px;padding-top: 80px;line-height: 40px;}
+#supply-receive .detail-quick-btn{width:180px;height:40px;background-color: #f3f3f3;;border:1px solid #e2e2e2;text-align:center;margin-left: 70px;margin-top: 20px;margin-bottom: 20px;}
+#supply-receive .detail-quick-btn a{line-height: 40px;font-size: 16px;text-align: center;color: #a4a4a4;}
+#supply-receive .detail-quick-btn a:hover{color:#FF0000;}

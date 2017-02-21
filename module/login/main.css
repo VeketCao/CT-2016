@@ -1,0 +1,238 @@
+#login-module{
+    width:350px;
+    overflow:hidden;
+    margin-right: -15px; margin-bottom: -15px;
+}
+#login-module .lg-container {
+    position:absolute;
+    z-index:0;
+    background:#fafafa none repeat scroll 0% 0%;
+    height: 100%;
+    width:100%;
+}
+
+#login-module fieldset {
+    border:none;
+    padding:15px 39px 0;
+}
+#login-module .icon-user {
+    background:url(../../img/default/user.png) 1px 2px no-repeat;
+}
+#login-module .icon-password {
+    background:url(../../img/default/password.png) 1px 2px no-repeat;
+}
+
+#login-module .lg-ipt{
+    width:100%;
+    line-height:2em;
+    font-size:12px;
+    height:24px;
+    border:1px solid #CCC;
+    padding:3px 4px 3px 3em;
+    width:210px;
+}
+
+#login-module .lg-split{
+    border-left: 1px solid #ccc;
+    height:30px;
+    position:absolute;
+    margin:1px 30px;
+    wdith:1px;
+}
+#login-module .lg-ipt-div {
+    background: #fff;
+    margin:10px 10px 0;
+}
+#login-module .yzm {
+    border:1px solid #CCC;
+    width:80px;
+    margin: 0px 10px;
+    padding: 5px;
+    float:left;
+    height: 20px;
+    background-color: #fff;
+}
+#login-module fieldset input[type=checkbox],
+#login-module fieldset input[type=radio],
+#login-module fieldset button
+{
+    margin-left:10px;
+    vertical-align:middle;
+}
+#login-module fieldset button{
+    width:252px;
+    margin-bottom: 15px;
+}
+#login-module fieldset a{
+    cursor:pointer;
+    text-decoration:none;
+}
+#login-module .lg-a-right{
+    color:#000;
+    font-size:14px;
+    float:right;
+    margin-right: 16px;
+}
+#login-module fieldset span {
+    color:#000;
+    font-size:14px;
+    position: absolute;
+    margin: -1px 3px;
+}
+
+#login-module .img{
+    margin: 3px 0px;
+}
+#login-module .next{
+    margin: 14px 15px;
+    position: absolute;
+}
+
+#login-module {background-color: #ffffff;width:100%;height:100%;}
+#login-module .tab{background: #fff;width: 100%;height: 100%}
+#login-module .tab .content{float:left;width: 500px;}
+#login-module .tab ul li{float:left;padding: 5px 5px;}
+#login-module .tab ul li a{font-size:18px;}
+#login-module .tab ul li.active{ background:#0083e9;/*谷歌*/ }
+#login-module .tab .hide{display: none}
+
+#login-module .tab .i-frame{width: 500px;height: 500px;}
+
+
+#login-module .main-door{
+    background-color:#f9f9f9;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+#login-module .login-kuang1{
+    margin:0 auto;
+    width: 460px;
+    height: 380px;
+    border: 1px solid #ebe9e9;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background-color:#FFF;
+    margin-top:40px;
+    z-index:10;
+}
+#login-module .login-kuangtitle{
+    color:#666666;
+    font-size:16px;
+    padding-top:25px;
+    padding-left:20px;
+    padding-bottom:25px;
+    display: table;
+}
+#login-module .login-kuangshurua{
+    width:380px;
+    height:40px;
+    border:1px solid #c9c9c9;
+    margin-left:40px;
+    margin-bottom:20px;
+}
+#login-module .login-kuangshurua img{
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:8px;
+    padding-right:8px;
+    border:0;
+    display:block;
+    float:left;
+}
+#login-module .wenbeny{
+    width:320px;
+    height:30px;
+    margin-top:5px;
+    border-left:1px solid #e4e4e4;
+    border-top:0;
+    border-right:0;
+    border-bottom:0;
+    color:#999;
+    padding-left:10px;
+    line-height:30px\9;
+}
+#login-module .wenbeny:hover{
+    color:#333;
+}
+#login-module .login-kuangshurub{
+    width:190px;
+    height:40px;
+    border:1px solid #c9c9c9;
+    margin-left:40px;
+    margin-bottom:30px;
+    float:left;
+}
+#login-module .login-kuangshurub img{
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:8px;
+    padding-right:8px;
+    border:0;
+    display:block;
+    float:left;
+}
+#login-module .yanzhengma{
+    width:120px;
+    height:30px;
+    margin-top:5px;
+    border-left:1px solid #e4e4e4;
+    border-top:0;
+    border-right:0;
+    border-bottom:0;
+    color:#999;
+    padding-left:10px;
+    line-height:30px\9;
+}
+#login-module .yanzhengma:hover{
+    color:#333;
+}
+#login-module .yanzhengmai img{
+    border:0;
+    float:left;
+    height:30px;
+}
+#login-module .huanyizu{
+    float:left;
+    width:60px;
+    padding-left:10px;
+    padding-top:6px;
+}
+#login-module .huanyizu a{
+    color:#a5a4a4;
+    text-decoration:none;
+}
+#login-module .login-anniu{
+    width:400px;
+    height:46px;
+    margin-left:40px;
+    margin-bottom:20px;
+    display:inline;
+    float:left;
+}
+#login-module .login-button{
+    width:180px;
+    height:46px;
+    border:0px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background-color:#06b0fb;
+    font-size:18px;
+    font-family:"Microsoft YaHei" ;
+    color:#FFF;
+}
+#login-module .login-button:hover{
+    width:180px;
+    height:46px;
+    border:0px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background-color:#34c0fe;
+    font-size:18px;
+    font-family:"Microsoft YaHei" ;
+    cursor:pointer;
+    color:#FFF;
+}
